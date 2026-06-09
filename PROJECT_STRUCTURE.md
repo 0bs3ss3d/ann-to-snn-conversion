@@ -334,28 +334,5 @@ def compute_thresholds_alternative(...):
 
 ---
 
-## 🔬 For MRes Thesis Chapters
-
-### Chapter 2: Background
-- Reference `calibration.py` + `snn_model.py` for LIF mathematics
-- Include `README.md` section on neuromorphic hardware
-
-### Chapter 3: Methodology
-- Copy workflow from this guide
-- Include architecture diagrams from `ann_model.py` comments
-- Reference conversion pipeline from `snn_model.py`
-
-### Chapter 4: Experiments
-- Run `thesis_experiments.ipynb` for results
-- Generate figures via matplotlib in notebook
-- Export results from `checkpoints/results.json`
-
-### Chapter 5: Results & Analysis
-- Use `print_evaluation_summary()` output
-- Include firing rate analysis
-- Compare with [Rathi et al., 2020] and [Bu et al., 2023]
-
----
-
 **Last Updated:** June 2025  
 **Status:** ✅ Production Ready for MRes Thesis
